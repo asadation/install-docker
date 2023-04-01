@@ -3,7 +3,7 @@
 echo "Installing drivers:"
 if (lspci | grep 3070)
 	then
-		sudo apt install nvidia-driver-515 nvidia-utils-515 -y
+		sudo apt install nvidia-driver-525 nvidia-utils-525 -y
 
 elif (lspci | grep 3080)
 	then
